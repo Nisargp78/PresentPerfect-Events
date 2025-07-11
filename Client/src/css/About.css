@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9fbf2;
+  margin-top: -92px;
+  padding-top: 90px;
+}
+.about .container {
+  max-width: 1250px;
+  display: flex;
+}
+.button{
+  cursor: pointer;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 1px;
+}
+.about .container .banner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.about .container .banner img {
+  width: 100%;
+}
+.heading {
+  font-weight: 200;
+  font-size: 4rem;
+  color: #111;
+  letter-spacing: 2px;
+  word-spacing: 20px;
+  font-family: "Alex Brush", cursive;
+}
+.about .container .banner .mid {
+  width: 71%;
+  font-size: 19px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  font-family: 'Comic Neue';
+}
+.about .container .banner .top p {
+  font-size: 19px;
+  font-weight: 400;
+  color: #727272;
+  letter-spacing: 2px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+.about .container .banner a {
+  border: 1px solid black;
+  padding: 8px 28px;
+  border-radius: 30px;
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 15px;
+  color: #111;
+}
+.about .container .banner a span {
+  margin-left: 1rem;
+  padding: 6px;
+  background: #111;
+  border-radius: 100%;
+  color: #fff;
+}
+.about .container .banner a:hover {
+  color: #fff;
+  background: #111;
+  transition: ease-in-out 0.3s;
+}
+.about .container .banner a:hover span {
+  background: #fff;
+  color: #111;
+}

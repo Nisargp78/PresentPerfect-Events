@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+.team {
+    display: flex;
+    min-height: 60vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #f6fdfe 0%, #e9efef 100%);
+  }
+  .team .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .team .container .heading_section {
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .team .container .heading_section p {
+    font-family: 'Comic Neue';
+    color: #333;
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+  }
+  .team .container .team_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .team .container .team_container .card {
+    width: 5%;
+    padding: 11px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .team .container .team_container .card img {
+    width: 185px;
+    height: 185px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border-radius: 100px;
+  }
+  .team .container .team_container .card h3 {
+    font-size: 1.5rem;
+    font-family: 'Comic Neue';
+    letter-spacing: 3px;
+    font-weight: 400;
+  }
+  .team .container .team_container .card p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    font-family: 'Comic Neue';
+  }

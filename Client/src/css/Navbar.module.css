@@ -1,0 +1,114 @@
+.body{
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  margin: 0px;
+  padding: 0px;
+}
+/* Nav-logo */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  margin: 0;
+  position: sticky;
+  backdrop-filter: blur(10px);
+  font-family: 'comic neue';
+  padding: 0px 10px 0px 5px;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(163, 163, 163, 0.183);
+  border-width: 80% ;
+  }
+.navbtns{
+  display: flex;
+  align-items: center;
+}
+#navlogo{
+  width: 70px;
+}
+.navlogo{
+  display: flex;
+  align-items: center;
+  font-family: 'comic neue';
+}
+#pp{
+  color: rgb(97, 97, 97);
+  display: flex;
+  align-items: flex-end;
+  font-size: 34px;
+}
+/* Top-Navbar-Form */
+.navform{
+  display: flex;
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  position: sticky;
+  top: 0;
+  
+}
+.navlist{
+  display: flex;
+  justify-content: space-between;
+  transition: transform 0.3s;
+  padding-inline-start: 0px;
+}
+.navlist li{
+  display: inline;
+  font-size: 22px;
+}
+.navlist li a{
+  color: rgb(142, 141, 141);
+  text-decoration: none;
+  transition: 0.4s;
+  position: relative;
+  padding: 10px 15px;
+}
+.navlist li a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: #9b9b9b;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s;
+}
+.navlist li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* sign In button */
+.signin {
+  font-size: 17px;
+  height: 40px;
+  padding: 0.5em 1em;
+  border: transparent;
+  /* box-shadow: 2px 2px 4px rgba(0,0,0,0.4); */
+  background-color: #b5d1d8;
+  color: white;
+  border-radius: 10px;
+  font-family: 'Comic Neue';
+ }
+ 
+ .signin:hover {
+  background: linear-gradient(90deg, rgb(176, 176, 176) 0%, rgb(213, 213, 213) 100%);
+ }
+ 
+ .signin:active {
+  transform: translate(0em, 0.2em);
+ }
+ .hamburger{
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+ }

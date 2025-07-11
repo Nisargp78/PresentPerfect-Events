@@ -1,0 +1,151 @@
+
+.body{
+  background-image: url('/background/Homebg.jpg');
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ /* sections */
+#title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 40px;
+  color: #656565;
+}
+#para{
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 24px;
+}
+ .sec
+ {
+    text-align: center;
+    color: black;
+    font-family: "Comic Neue";
+  }
+
+/* Section 1 boxes */
+.container{
+  display: flex;
+  flex-wrap: wrap ;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+.item{
+  display: flex;
+  width: 230px;
+  height: 250px;
+  background-color: rgba(203, 203, 203, 0.361);
+  border: 2px solid rgba(147, 147, 147, 0.128);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.item_1{
+  display: flex;
+  width: 180px;
+  height: 250px;
+  background-color: rgba(203, 203, 203, 0.361);
+  border: 2px solid rgba(179, 179, 179, 0.128);
+  border-radius: 10px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.item_card{
+  display: flex;
+  align-items: center;
+  width: 415px;
+  height: 650px;
+  background-color: rgba(136, 136, 136, 0.242);
+  border: 2px solid rgba(179, 179, 179, 0.128);
+  border-radius: 12px;
+}
+.sec_box
+ {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+  }
+  
+  .sec h2 {
+    font-size: 29px;
+    color: #656565;
+  }
+  
+  .sec p {
+    font-size: 23px;
+  }
+  ul{
+    padding-inline-start: 0px;
+    width: 100%;
+    padding-right: 40px;
+  } 
+  .card_text{
+    padding: 10px;
+    display: flex;
+    font-size: 20px;
+    color: rgba(62, 59, 59, 0.814);
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+  }
+  .card_title{
+    text-align: left;
+  }
+  .pictures{
+    position: relative;
+    top: 50px;
+  }
+  .bu{
+    height: 40px;
+    width: 200px;
+    position: relative;
+    top: 400px;
+    left: -150px;
+    color: rgb(92, 89, 89);
+    border: 2px solid gray;
+    border-radius: 40px;
+  }
+  .img1,.img2,.img3,.img4{
+    height: 400px;
+    width: 445px;
+    padding: 2px;
+  }
+  .secimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .pc{
+    background-color: rgba(128, 128, 128, 0.466);
+    height: 1650px;
+    width: 1365px;
+    border-radius: 20px;
+    position: relative;
+  }
+  .pc1,.pc2,.pc3,.pc4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 20px;
+  }
+  .blank{
+    height: 50px;
+  }

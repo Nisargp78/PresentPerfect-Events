@@ -1,0 +1,151 @@
+.body{
+  font-family: "Comic Neue";
+  background-image: url('/background/Homebg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  font-family: 'Comic Neue';
+}
+
+ /* sections */
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    font-size: 40px;
+    color: #656565;
+}
+#para{
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 24px;
+}
+ .sec
+ {
+    text-align: center;
+    color: black;
+    font-family: "Comic Neue";
+  }
+
+/* Section 1 boxes */
+.container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap ;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 20px;
+}
+.item{
+  display: flex;
+  width: 230px;
+  height: 230px;
+  background-color: rgba(203, 203, 203, 0.361);
+  border: 2px solid rgba(179, 179, 179, 0.128);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.item_1{
+  display: flex;
+  width: 180px;
+  height: 250px;
+  background-color: rgba(203, 203, 203, 0.361);
+  border: 2px solid rgba(179, 179, 179, 0.128);
+  border-radius: 10px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: -1
+}
+.item_card{
+  display: flex;
+  align-items: center;
+  width: 450px;
+  height: 525px;
+  background-color: rgba(136, 136, 136, 0.242);
+  border: 2px solid rgba(179, 179, 179, 0.128);
+  border-radius: 12px;
+}
+.secimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.sec_box
+ {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+  }
+  
+  .sec h2 {
+    font-size: 29px;
+    color: #656565;
+  }
+  
+  .sec p {
+    font-size: 23px;
+  }
+  .disc{
+    padding-inline-start: 0px;
+    width: 100%;
+    padding-right: 40px;
+  } 
+  .card_list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .card_text{
+    padding: 10px;
+    display: flex;
+    font-size: 20px;
+    color: rgba(62, 59, 59, 0.814);
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+  }
+  .card_title{
+    text-align: left;
+  }
+  .pictures{
+    position: relative;
+    top: 50px;
+  }
+  .img1{
+    height: 350px;
+    width: 450px;
+    padding: 2px;
+  }
+  .img2{
+    height: 400px;
+    width: 336px;
+    padding: 2px;   
+  }
+  .pc{
+    background-color: rgba(128, 128, 128, 0.466);
+    height: 800px;
+    width: 1375px;
+    border-radius: 20px;
+    position: relative;
+  }
+  .pc1,.pc2,.pc3,.pc4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 20px;
+  }
+  .blank{
+    height: 50px;
+  }

@@ -1,0 +1,182 @@
+.body{
+    font-family: "Comic Neue";
+    background-image: url('/background/venue.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+   
+   /* Page Title and Description */
+    .personalized_section {
+      text-align: center;
+      padding: 20px;
+      font-family: "Comic Neue";
+    }
+  
+    .personalized_section h1 {
+      font-size: 38px;
+      margin-bottom: 10px;
+      color: #2a7b8f;
+    }
+  
+    .personalized_section p {
+      font-size: 22px;
+      margin-bottom: 30px;
+      color: rgb(80, 140, 174);
+    }
+  
+    /* Product Grid */
+    .products_container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+  
+    .product {
+      background: rgba(195, 227, 227, 0.219);
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      width: 350px;
+      height: 510px;
+      padding: 15px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.5s;
+    }
+    .product:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      
+      /* border: 1px solid black; */
+    }
+    .product img {
+      width: 100%;
+      height: 68%;
+      border-radius: 8px;
+      object-fit: cover;
+      overflow: hidden;
+      object-position: 33% 75%;
+     
+    }
+    .product h3 {
+      font-size: 22px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      color: #2a7b8f;
+    }
+  
+    .product p {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+  
+    .product .price {
+      font-weight: bold;
+      color: #000000;
+    }
+  #product3{
+    object-position: 33% 26%;
+  }
+  #product9{
+    object-position: 33% 15%;
+  }
+    /* sections */
+    .sec_h1 {
+      font-size: 38px;
+      margin-bottom: 10px;
+      color: #2a7b8f;
+    }
+  
+    #sec_p {
+      font-size: 22px;
+      margin-bottom: 30px;
+    }
+   .sec
+   {
+      text-align: center;
+      padding: 15px;
+      color: rgb(80, 140, 174);
+      font-family: "Comic Neue";
+    }
+    
+    .sec h2 {
+      font-size: 46px;
+    }
+    
+    .sec p {
+      font-size: 18px;
+    }    
+  /* Section 1 boxes */
+  .container{
+   
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    align-items: center;
+  }
+  .item{
+    display: flex;
+    width: 370px;
+    height: 300px;
+    background-color: rgba(218, 232, 239, 0.562);
+    border: 2px solid rgba(179, 179, 179, 0.128);
+    border-radius: 10px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .sec_box
+   {
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      color: rgb(71, 125, 183);
+    }
+    
+    .sec h2 {
+      font-size: 30px;
+    }
+    
+    .sec p {
+      justify-content: left;
+      font-size: 24px;
+    }    
+  /* Box 1 */
+  .sec_boxes
+   {
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      color: rgb(29, 81, 99);
+    }
+    .sec_boxes h2 {
+      font-size: 28px;
+    }
+    
+    .sec_boxes p {
+      font-size: 19px;
+    }
+  #box1img{
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  /* Box 2 */
+  i #gift{
+    height: 30px;
+  }
+  .cards{
+    text-decoration: none;
+  }
+  .decor_list{
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+    font-size: 22px;
+    text-align: left;
+  }

@@ -1,0 +1,54 @@
+{
+    "data": [
+        {"team": [
+            {
+                "id": 1,
+                "image": "./img/Nisarg.jpg",
+                "name": "NISARG",
+                "designation": "Founder"
+            },
+            {
+                "id": 2,
+                "image": "./img/Varcha.jpg",
+                "name": "VARCHA",
+                "designation": "Founder"
+            },
+            {
+                "id": 3,
+                "image": "./img/Yashvi.jpg",
+                "name": "YASHVI",
+                "designation": "Founder"
+            },
+            {
+                "id": 4,
+                "image": "./img/Jiten.jpg",
+                "name": "JITEN",
+                "designation": "Founder"
+            }
+        ],
+        "who_we_are": [
+            {
+                "id": 1,
+                "number": "50+",
+                "title": "Event Venues Covered"
+            },
+            {
+                "id": 2,
+                "number": "30",
+                "title": "Event Organization Staff"
+            },
+            {
+                "id": 3,
+                "number": "08+",
+                "title": "Event Catagories"
+            },
+            {
+                "id": 4,
+                "number": "200+",
+                "title": "Gift Options"
+            }
+        ]
+    
+    } 
+    ]
+}
