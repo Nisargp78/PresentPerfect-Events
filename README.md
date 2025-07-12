@@ -45,7 +45,7 @@ The project is divided into three main parts:
 
 1. Clone the repository
 ```
-git clone <repository-url>
+git clone https://github.com/Nisargp78/PresentPerfect-Events
 cd PresentPerfect-Event
 ```
 
