@@ -1,4 +1,4 @@
-# Present Perfect Event Planner v3.0
+# Present Perfect Event Management
 
 A comprehensive event planning web application that helps users plan and organize various types of events, from weddings to corporate gatherings.
 
@@ -17,7 +17,6 @@ The project is divided into three main parts:
 - Customizable event planning
 - Admin dashboard for event management
 - User messaging system
-- Responsive design for all devices
 
 ## Technologies Used
 
@@ -93,8 +92,4 @@ npm run dev
 
 ## Contributors
 
-Nisargp78
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+Nisarg Prajapati
